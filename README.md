@@ -4,17 +4,14 @@
 ### Sintak Faktorial
     #include <stdio.h>
 
-    int faktorial(int num)
-    {
-        if (num == 0)
-        {
+    int faktorial(int num){
+        if (num == 0){
             return 1;
         }
         return num * faktorial(num - 1);
     }
 
-    int main()
-    {
+    int main(){
         int bil, hasil;
         printf("Masukkan bilangan: ");
         scanf("%d", &bil);
@@ -27,15 +24,12 @@
     #include <stdio.h>
 
     int a, b, c, max, min;
-    void fungsi_bk()
-    {
-        if (a > b)
-        {
+    void fungsi_bk(){
+        if (a > b){
             max = a;
             min = b;
         }
-        else
-        {
+        else{
             max = b;
             min = a;
         }
@@ -45,8 +39,7 @@
             min = c;
     }
 
-    void main()
-    {
+    void main(){
         printf("Masukan bilangan 1 : ");
         scanf("%d", &a);
         printf("Masukan bilangan 2 : ");
